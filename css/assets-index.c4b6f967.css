@@ -1344,11 +1344,13 @@ h1 {
   font-family: Satoshi, sans-serif;
 }
 #dark-mode-btn {
-  background: url(../fonts/assets-dark-mode.svg) no-repeat center #255ce8;
+  background: url(/images/moon-2-48.png) no-repeat center #255ce8;
+  background-size: 20px;
   box-shadow: 0 2px 4px #00000080;
 }
 #dark-mode:checked + #dark-mode-btn {
-  background: url(../fonts/assets-ligh-mode.svg) no-repeat center #fff;
+  background: url(/images/sun-5-48.png) no-repeat center #b6b6b6;
+  background-size: 20px;
   box-shadow: 0 2px 4px #000c;
 }
 path:where(.astro-W34QEWDC) {
