@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en" class="lg:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/3115--apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/9221--favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/8839--favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="generator" content="Astro v1.5.2" />
+    <title>Tajrima Islam</title>
+    <link rel="stylesheet" href="css/assets-index.c4b6f967.css" />
+    <script type="module">
+      const c = document.querySelectorAll(".menu-element"),
+        t = document.querySelector(".check-input");
+      c.forEach((e) =>
+        e.addEventListener("click", () => {
+          t.checked = !1;
+        })
+      );
+    </script>
+  </head>
+  <body class="mx-auto mb-16 min-h-screen max-w-[1440px] text-color bg-color">
+    <div class="fixed bottom-4 right-4 z-50 flex">
+      <input
+        class="top-0 left-0 z-50"
+        type="checkbox"
+        name="dark-mode"
+        id="dark-mode"
+        hidden
+      />
+      <label
+        class="h-10 w-10 rounded-full cursor-pointer"
+        for="dark-mode"
+        id="dark-mode-btn"
+      ></label>
+    </div>
+    <header
+      class="sticky w-full top-0 px-6 py-3 flex justify-between items-center nav-bg backdrop-blur z-30 lg:px-16 lg:py-4 xl:px-24 xl:py-5 min-[1400px]:px-28 min-[1400px]:py-6"
+    >
+      <a
+        href="#home"
+        id="logo"
+        class="flex items-end text-2xl font-semibold gap-x-2"
+      >
+        <img
+          src="images/assets-ScalarZ.png"
+          alt="logo"
+          class="h-8 lg:h-[34px] xl:h-[36px] min-[1400px]:h-[36px]"
+        />
+        <h3 class="lg:text-[26px] xl:text-[28px] min-[1400px]:text-[30px]">
+          Tajrima Islam
+        </h3>
+      </a>
+
+      <nav class="relative">
+        <ul
+          class="hidden w-full text-sm text-center gap-x-8 min-[1400px]:text-base lg:flex"
+        >
+          <li class="nav-text hover:text-[#255CE8]">
+            <a href="#home">home</a>
+          </li>
+          <li class="nav-text hover:text-[#255CE8]">
+            <a href="#designs">designs</a>
+          </li>
+          <li class="nav-text hover:text-[#255CE8]">
+            <a href="#skills">skills</a>
+          </li>
+          <li class="nav-text hover:text-[#255CE8]">
+            <a href="#about">about</a>
+          </li>
+          <li class="nav-text hover:text-[#255CE8]">
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+        <div class="relative lg:hidden astro-MB2I55HJ">
+          <input
+            class="check-input astro-MB2I55HJ"
+            id="checkbox"
+            type="checkbox"
+            hidden
+          />
+          <label
+            for="checkbox"
+            id="menu-icon"
+            class="relative flex flex-col gap-y-1 cursor-pointer z-20 astro-MB2I55HJ"
+          >
+            <span
+              class="first h-1 w-7 bg-[#255ce8] rounded-full duration-300 astro-MB2I55HJ"
+            ></span>
+            <span
+              class="second h-1 w-7 bg-[#255ce8] rounded-full duration-300 astro-MB2I55HJ"
+            ></span>
+            <span
+              class="third h-1 w-7 bg-[#255ce8] rounded-full duration-300 astro-MB2I55HJ"
+            ></span>
+          </label>
+          <div
+            id="menu-container"
+            class="fixed top-0 right-0 h-0 w-0 bg-color ease-in duration-300 z-10 flex justify-end astro-MB2I55HJ"
+          >
+            <div
+              class="h-screen w-screen flex items-center opacity-0 ease-in duration-300 pointer-events-none astro-MB2I55HJ"
+            >
+              <ul
+                class="w-full text-center text-lg font-medium space-y-4 astro-MB2I55HJ"
+              >
+                <li class="astro-MB2I55HJ">
+                  <a class="menu-element astro-MB2I55HJ" href="#home"> home </a>
+                </li>
+
+                <li class="astro-MB2I55HJ">
+                  <a class="menu-element astro-MB2I55HJ" href="#designs">
+                    designs
+                  </a>
+                </li>
+                <li class="astro-MB2I55HJ">
+                  <a class="menu-element astro-MB2I55HJ" href="#skills">
+                    skills
+                  </a>
+                </li>
+                <li class="astro-MB2I55HJ">
+                  <a class="menu-element astro-MB2I55HJ" href="#about">
+                    about
+                  </a>
+                </li>
+
+                <li class="astro-MB2I55HJ">
+                  <a class="menu-element astro-MB2I55HJ" href="#contact">
+                    contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="home" class="flex flex-col items-center gap-y-10">
+      <main
+        class="w-full lg:px-16 lg:flex lg:justify-between lg:items-center xl:px-24 min-[1400px]:px-28"
+      >
+        <section class="pt-16">
+          <h3
+            class="text-center font-medium sm:text-[18px] lg:text-[20px] lg:text-left xl:text-[22px] min-[1400px]:text-[24px]"
+          >
+            Hi, I&rsquo;m
+            <span class="relative astro-W34QEWDC">
+              <svg
+                width="54"
+                height="12"
+                viewbox="0 0 54 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute -bottom-1.5 right-1 scale-150 stroke-color lg:right-4 astro-W34QEWDC"
+              >
+                <path
+                  id="stroke"
+                  d="M1 5.25911C9.22376 1.91821 33.4315 0.195948 51.3223 1.36664C52.8913 1.46931 52.7678 2.96807 51.1958 2.99558C32.3031 3.32617 19.6643 4.9677 14.4979 6.59563C13.4304 6.93199 13.7187 7.7231 14.8369 7.67599C20.7166 7.42828 25.8532 8.18499 26.1347 10.1555"
+                  stroke="#A9C1FF"
+                  stroke-width="1.95855"
+                  stroke-dasharray="105"
+                  stroke-dashoffset="105"
+                  stroke-linecap="round"
+                  class="astro-W34QEWDC"
+                ></path>
+              </svg>
+              <span class="relative astro-W34QEWDC">Tarjrima</span>
+            </span>
+            Islam
+          </h3>
+          <h1
+            class="mt-2 mb-4 text-center text-[26px] font-black sm:text-[32px] lg:text-[38px] lg:text-left xl:text-[44px] xl:mt-2 xl:mb-6 min-[1400px]:text-[48px]"
+          >
+            A UI-UX Designer
+          </h1>
+          <div
+            class="text-center font-medium space-x-2 sm:text-[18px] lg:text-[20px] lg:text-left xl:text-[22px] xl:space-x-4 min-[1400px]:text-[24px]"
+          >
+            <button
+              class="px-6 py-2 text-white primary-btn rounded-full duration-200 hover:scale-105"
+            >
+              <a href="#designs">My Designs</a>
+            </button>
+            <button
+              class="px-6 py-2 secondary-btn rounded-full duration-200 hover:scale-105"
+            >
+              <a href="/images/resume.pdf" target="_blank">My resume</a>
+              >
+            </button>
+          </div>
+        </section>
+        <section class="mt-12 flex justify-center">
+          <img
+            src="images/main.jpg"
+            alt="photo"
+            class="border border-10 border-color-accent h-[330px] aspect-square rounded-full sm:h-[380px] lg:h-[420px] xl:h-[470px] min-[1400px]:h-[530px]"
+            loading="lazy"
+          />
+        </section>
+      </main>
+      <span>
+        <img
+          src="images/assets-arrow.svg"
+          alt="arrow"
+          class="h-16 xl:h-20 stroke-color"
+        />
+      </span>
+    </div>
+
+    <div
+      id="designs"
+      class="mt-16 lg:px-16 xl:px-24 min-[1400px]:px-28 lg:mt-18 xl:mt-20 min-[1400px]:mt-24"
+    >
+      <h2
+        class="relative mx-auto mb-6 max-w-max text-center font-semibold text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] min-[1400px]:text-[36px]"
+      >
+        <span class="relative z-10">My Designs</span>
+        <img
+          src="images/assets-stroke.svg"
+          alt="stroke"
+          class="absolute left-2 -bottom-3 h-5 stroke-color md:h-[24px] lg:-bottom-[16px] lg:h-[28px] lg:-bottom-[16px] xl:h-[32px] xl:-bottom-[18px] min-[1400px]:h-[36px] min-[1400px]:-bottom-[20px]"
+        />
+      </h2>
+      <main
+        class="mt-8 grid grid-cols-1 place-items-center gap-y-16 lg:mt-[34px] lg:grid-cols-2 lg:gap-y-16 xl:mt-[44px] min-[1400px]:mt-[48px] min-[1400px]:grid-cols-3 min-[1400px]:gap-y-14 min-[1400px]:gap-x-10"
+      >
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #c1c5ff"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-noolde.png"
+              alt="noolde"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                Noodle is a very basic website with a solid and
+                pleasure-to-the-eye design, where every single illustration on
+                this design is self-made.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Adobe</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Unsplash
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Noodle
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/ifHX87Ojp3gqvALwdQTL6W/Noodles?node-id=0%3A1"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #8eba88"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-greeny.png"
+              alt="greeny"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                Greeny is a sort of mix between natural and luxury design to
+                help people see the beauty of the plants at home.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Pinterest
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Greeny
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/CkJqSwupo9Jy0ZGIfMxxYy/Plant?node-id=0%3A1"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #badaed"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-shoe-shop.png"
+              alt="shoe-shop"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                This design is made for two reasons, first, I got inspired by
+                large companies' websites like Nike, and second, I practiced
+                building a design system.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Unsplash
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Shoe-Shop
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/K6iDWHBNl4rpWundfbm6no/Ecommerce-store"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #badaed"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-shoe-shop.png"
+              alt="shoe-shop"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                This design is made for two reasons, first, I got inspired by
+                large companies' websites like Nike, and second, I practiced
+                building a design system.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Unsplash
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Shoe-Shop
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/K6iDWHBNl4rpWundfbm6no/Ecommerce-store"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #badaed"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-shoe-shop.png"
+              alt="shoe-shop"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                This design is made for two reasons, first, I got inspired by
+                large companies' websites like Nike, and second, I practiced
+                building a design system.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Unsplash
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Shoe-Shop
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/K6iDWHBNl4rpWundfbm6no/Ecommerce-store"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden w-[344px] rounded-xl drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)] md:w-[354px] lg:w-[354px] lg:drop-shadow-[0_10px_12px_rgba(0,0,0,0.1)] xl:w-[364px] min-[1400px]:w-[376px] astro-LVC4MDPW"
+        >
+          <div
+            style="background-color: #badaed"
+            id="img-container"
+            class="relative aspect-square astro-LVC4MDPW"
+          >
+            <img
+              src="images/designs-shoe-shop.png"
+              alt="shoe-shop"
+              class="w-full astro-LVC4MDPW"
+              loading="lazy"
+            />
+            <div
+              id="project-description"
+              class="absolute -bottom-full left-0 p-4 h-full w-full duration-300 ease-out md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px] astro-LVC4MDPW"
+            >
+              <div
+                class="absolute top-0 left-0 h-full w-full opacity-0 astro-LVC4MDPW"
+              ></div>
+              <p
+                class="mb-2 relative text-white font-light z-10 astro-LVC4MDPW"
+              >
+                This design is made for two reasons, first, I got inspired by
+                large companies' websites like Nike, and second, I practiced
+                building a design system.
+              </p>
+              <span class="relative mt-2 text-white font-light astro-LVC4MDPW"
+                >Used techs :</span
+              >
+              <ul class="relative pl-6 space-y-1 list-disc z-10 astro-LVC4MDPW">
+                <li class="pl- text-white font-medium astro-LVC4MDPW">Figma</li>
+                <li class="pl- text-white font-medium astro-LVC4MDPW">
+                  Unsplash
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative p-4 bg-color border border-color rounded-b-xl space-y-2 z-30 lg:p-[21px] lg:space-y-[6px] xl:p-[22px] xl:space-y-[8px] min-[1400px]:p-[23px] min-[1400px]:space-y-[10px] astro-LVC4MDPW"
+          >
+            <h3
+              class="text-xl font-medium flex justify-between items-center md:text-[21px] lg:text-[22px] xl:text-[23px] min-[1400px]:text-[24px] astro-LVC4MDPW"
+            >
+              Shoe-Shop
+              <div class="flex items-center gap-x-2 astro-LVC4MDPW">
+                <a
+                  href="https://www.figma.com/file/K6iDWHBNl4rpWundfbm6no/Ecommerce-store"
+                  target="_blank"
+                  class="astro-LVC4MDPW"
+                >
+                  <img
+                    src="images/assets-figma.svg"
+                    alt="github"
+                    class="h-6 cursor-pointer saturate-0 hover:saturate-100 astro-LVC4MDPW"
+                  />
+                </a>
+              </div>
+            </h3>
+            <p
+              class="text-sm text-secondary flex justify-between md:text-[15px] lg:text-[15px] xl:text-[16px] min-[1400px]:text-[16px] astro-LVC4MDPW"
+            >
+              UI Design
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div
+      id="skills"
+      class="mt-16 lg:px-16 xl:px-24 min-[1400px]:px-28 lg:mt-18 xl:mt-20 min-[1400px]:mt-24"
+    >
+      <h2
+        class="relative mx-auto mb-6 max-w-max text-center font-semibold text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] min-[1400px]:text-[36px]"
+      >
+        <span class="relative z-10">My Skills</span>
+        <img
+          src="images/assets-stroke.svg"
+          alt="stroke"
+          class="absolute left-2 -bottom-3 h-5 stroke-color md:h-[24px] lg:-bottom-[16px] lg:h-[28px] lg:-bottom-[16px] xl:h-[32px] xl:-bottom-[18px] min-[1400px]:h-[36px] min-[1400px]:-bottom-[20px]"
+        />
+      </h2>
+      <main
+        class="mt-6 grid grid-cols-2 gap-y-8 lg:grid-cols-3 lg:gap-y-12 lg:mt-[34px] xl:mt-[44px] min-[1400px]:mt-[48px]"
+      >
+        <section class="pl-[20%] space-y-4 min-[1400px]:space-y-5">
+          <h3
+            class="pl-2 font-medium md:text-[18px] lg:text-[20px] xl:text-[22px] min-[1400px]:text-[24px]"
+          >
+            Core Focus
+          </h3>
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/hash.png"
+              alt="hash"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+            >
+              Typography
+            </span>
+          </div>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/hash.png"
+              alt="hash"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Color Theory
+            </span>
+          </div>
+        </section>
+        <section class="pl-[20%] space-y-4 min-[1400px]:space-y-5">
+          <h3
+            class="pl-2 font-medium md:text-[18px] lg:text-[20px] xl:text-[22px] min-[1400px]:text-[24px]"
+          >
+            Design Principles
+          </h3>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/hash.png"
+              alt="hash"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+            >
+              Minimalistic
+            </span>
+          </div>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/hash.png"
+              alt="hash"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+            >
+              Responsive
+            </span>
+          </div>
+        </section>
+        <section
+          class="hidden pl-[20%] space-y-4 min-[1400px]:space-y-5 lg:block"
+        >
+          <h3
+            class="pl-2 font-medium md:text-[18px] lg:text-[20px] xl:text-[22px] min-[1400px]:text-[24px]"
+          >
+            Tools
+          </h3>
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/skills-Figma.png"
+              alt="Figma"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Figma</span
+            >
+          </div>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/canva.png"
+              alt="Adobe XD"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Canva</span
+            >
+          </div>
+        </section>
+
+        <section class="pl-[20%] space-y-4 min-[1400px]:space-y-5 lg:hidden">
+          <h3
+            class="pl-2 font-medium md:text-[18px] lg:text-[20px] xl:text-[22px] min-[1400px]:text-[24px]"
+          >
+            Design
+          </h3>
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/skills-Figma.png"
+              alt="Figma"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Figma</span
+            >
+          </div>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/skills-Adobe%20Illustrator.png"
+              alt="Adobe Illustrator"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Adobe Illustrator</span
+            >
+          </div>
+
+          <div
+            id="skill"
+            class="p-2 flex items-center cursor-pointer space-x-4 rounded astro-2XDBTGUD"
+          >
+            <img
+              src="images/skills-Adobe%20XD.png"
+              alt="Adobe XD"
+              class="h-6 w-6 object-contain lg:h-[32px] xl:h-[36px] min-[1400px]:h-[40px] astro-2XDBTGUD"
+              loading="lazy"
+            />
+            <span
+              class="text-xs md:text-[16px] lg:text-[18px] xl:text-[20px] min-[1400px]:text-[22px] astro-2XDBTGUD"
+              >Adobe XD</span
+            >
+          </div>
+        </section>
+      </main>
+    </div>
+    <div
+      id="about"
+      class="mt-16 lg:px-16 xl:px-24 min-[1400px]:px-28 lg:mt-18 xl:mt-20 min-[1400px]:mt-24"
+    >
+      <h2
+        class="relative mx-auto mb-6 max-w-max text-center font-semibold text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] min-[1400px]:text-[36px]"
+      >
+        <span class="relative z-10">About me</span>
+        <img
+          src="images/assets-stroke.svg"
+          alt="stroke"
+          class="absolute left-2 -bottom-3 h-5 stroke-color md:h-[24px] lg:-bottom-[16px] lg:h-[28px] lg:-bottom-[16px] xl:h-[32px] xl:-bottom-[18px] min-[1400px]:h-[36px] min-[1400px]:-bottom-[20px]"
+        />
+      </h2>
+      <main
+        class="mt-8 px-8 grid grid-cols-1 place-items-center gap-y-16 lg:flex lg:items-center lg:flex-row-reverse lg:gap-x-16 lg:mt-0"
+      >
+        <section class="text-center space-y-4 lg:w-[470px] lg:text-left">
+          <p
+            class="font-light md:text-[17px] lg:text-[18px] xl:text-[19px] min-[1400px]:text-[20px]"
+          >
+            UI/UX Designer with 6 months of learning experience, skilled in
+            using Figma and Canva to create user-friendly web, app interfaces
+            and logo. While I majored in Electrical and Electronic Engineering
+            (EEE), my strong interest in design has led me to develop practical
+            skills in crafting solutions that balance functionality and visual
+            appeal.
+          </p>
+          <button
+            class="px-6 py-2 text-white bg-[#255CE8] rounded-full duration-200 hover:scale-105 lg:text-[18px] lg:px-8"
+          >
+            <a href="/images/resume.pdf" target="_blank">My resume</a>
+          </button>
+        </section>
+        <section
+          class="h-96 w-96 flex justify-center -translate-y-14 lg:h-[550px] lg:w-[550px] lg:-translate-y-0 border-10 border border-color-accent rounded-full"
+        >
+          <img
+            src="images/about.jpg"
+            alt="photo3"
+            class="h-full w-full rounded-full object-contain"
+            loading="lazy"
+          />
+        </section>
+      </main>
+    </div>
+
+    <footer
+      id="contact"
+      class="px-6 mt-16 md:px-24 lg:mt-18 xl:mt-20 min-[1400px]:mt-24"
+    >
+      <h2
+        class="relative mx-auto mb-6 max-w-max text-center font-semibold text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] min-[1400px]:text-[36px]"
+      >
+        <span class="relative z-10">Contact me</span>
+        <img
+          src="images/assets-stroke.svg"
+          alt="stroke"
+          class="absolute left-2 -bottom-3 h-5 stroke-color md:h-[24px] lg:-bottom-[16px] lg:h-[28px] lg:-bottom-[16px] xl:h-[32px] xl:-bottom-[18px] min-[1400px]:h-[36px] min-[1400px]:-bottom-[20px]"
+        />
+      </h2>
+      <ul
+        class="mt-10 flex flex-col justify-center items-center gap-y-4 lg:text-lg lg:flex-row lg:gap-x-8 lg:mt-[40px] xl:mt-[50px] min-[1400px]:mt-[60px]"
+      >
+        <li
+          class="w-full flex items-center gap-x-4 lg:w-12 duration-300 ease-in lg:hover:w-1/3"
+        >
+          <a
+            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=tajrimaislam28@gmail.com"
+            style="background-color: #dd4d3f"
+            target="_blank"
+            class="overflow-hidden relative w-full flex items-center bg-[#1A75BB] rounded-full cursor-pointer duration-300"
+          >
+            <img src="images/contact-gmail.svg" alt="linkedin" />
+            <span class="absolute left-12 text-white"
+              >tajrimaislam28@gmail.com</span
+            >
+          </a>
+        </li>
+        <li
+          class="w-full flex items-center gap-x-4 lg:w-12 duration-300 ease-in lg:hover:w-1/3"
+        >
+          <a
+            href="https://www.linkedin.com/in/mrin-moyii-193794298/"
+            style="background-color: #1a75bb"
+            target="_blank"
+            class="overflow-hidden relative w-full flex items-center bg-[#1A75BB] rounded-full cursor-pointer duration-300"
+          >
+            <img src="images/contact-linkedin.svg" alt="linkedin" />
+            <span class="absolute left-12 text-white"
+              >mrin-moyii-193794298</span
+            >
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
